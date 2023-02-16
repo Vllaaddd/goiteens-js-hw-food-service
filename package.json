@@ -1,24 +1,25 @@
 {
-  "name": "parcel-project-template",
+  "name": "goiteens-js-hw-food-service",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Vllaaddd.github.io/parcel-project-template",
+  "homepage": "https://Vllaaddd.github.io/goiteens-js-hw-food-service",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goiteens-js-hw-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vllaaddd/parcel-project-template.git"
+    "url": "git+https://github.com/Vllaaddd/goiteens-js-hw-food-service.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vllaaddd/parcel-project-template/issues"
+    "url": "https://github.com/Vllaaddd/goiteens-js-hw-food-service/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
